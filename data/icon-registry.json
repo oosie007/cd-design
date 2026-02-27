@@ -1,0 +1,4418 @@
+{
+  "version": "1.4.0",
+  "count": 602,
+  "icons": [
+    {
+      "name": ".skipToFirstPage",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": ".skipToLastPage",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "accidentHealth",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "account",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "accountCircle",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "activity",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "add",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "addCircle",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "additionalBenefits",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "aerospace",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "agriculture",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "ai",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "ambulance",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "analysisReport",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "analytics",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "api",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "appetiteByIndustry",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "applePay",
+      "variants": [
+        "color=default, type=mark",
+        "color=black, type=logo",
+        "color=white, type=logo"
+      ]
+    },
+    {
+      "name": "approvedApproval",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "arrow",
+      "variants": [
+        "size=16px, direction=right",
+        "size=16px, direction=up",
+        "size=16px, direction=left",
+        "size=16px, direction=down",
+        "size=24px, direction=right",
+        "size=24px, direction=up",
+        "size=24px, direction=left",
+        "size=24px, direction=down"
+      ]
+    },
+    {
+      "name": "arrowBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "atm",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "attachment",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "auto",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "autoDelete",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "award",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "backPrevious",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "barn",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "battery",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bed",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bespokeServices",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bike",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bikeCrash",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bikeStorage",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "billBilling",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "binoculars",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bluetoothSpeaker",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "boatsYachts",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bookClosed",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bookOpen",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "booking1",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "booking2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bookmark",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "bookmarks",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "box",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "bribery",
+      "variants": [
+        "Size=24px",
+        "Size=16px",
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "broadcast",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "broadcasters",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "brokenBone",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "broker1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "broker2",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "businessLines",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "businessLookup",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "businessOwnersAccident",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "businessOwnersPolicy",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "calculator",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "calendar",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "calendarBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "camera",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "campfire",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "canteen",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carClean",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carCollision",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carCrash",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "carCrashHouse",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "carCrashOtherCar",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "carCrashPerson",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "carCrashPole",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carFire",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carFlood",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carGraffiti",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carHomeBundle",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carMultiple",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carTsunami",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "carbonCapture",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "cardPayment",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "caret",
+      "variants": [
+        "size=16px, direction=right",
+        "size=16px, direction=up",
+        "size=16px, direction=left",
+        "size=16px, direction=down",
+        "size=24px, direction=right",
+        "size=24px, direction=up",
+        "size=24px, direction=left",
+        "size=24px, direction=down"
+      ]
+    },
+    {
+      "name": "cargo",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "cashless",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "cat",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "caution",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "cement",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "cementKiln",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "certificate",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "chatBubble",
+      "variants": [
+        "size=16px, style=stroke, notify=badge",
+        "size=16px, style=stroke, notify=counter",
+        "size=16px, style=stroke, notify=none",
+        "size=24px, style=stroke, notify=badge",
+        "size=24px, style=stroke, notify=counter",
+        "size=24px, style=stroke, notify=none",
+        "size=16px, style=fill, notify=badge",
+        "size=16px, style=fill, notify=counter",
+        "size=16px, style=fill, notify=none",
+        "size=24px, style=fill, notify=badge",
+        "size=24px, style=fill, notify=counter",
+        "size=24px, style=fill, notify=none"
+      ]
+    },
+    {
+      "name": "chatBubbles",
+      "variants": [
+        "size=24px, notify=none",
+        "size=24px, notify=counter",
+        "size=24px, notify=badge",
+        "size=16px, notify=none",
+        "size=16px, notify=counter",
+        "size=16px, notify=badge"
+      ]
+    },
+    {
+      "name": "check",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "checkBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "checklist",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "claims",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "claimsClose",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "claimsManage",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "claimsPay",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "claimsReview",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "claimsSubmitReport",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "claimsView",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "cleanTech",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "clock",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "clock24Hours",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "clockBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "close",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "closeCircle",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "clothes1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "clothes2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "clothes3",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "cloud",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "cloudUpload",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "coffee1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "coffee2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "coinDollar",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "coinEuro",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "coinPound",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "coinYen",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "colorPalette",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "compare",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "compass",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "congratulations",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "construction",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "contacts",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "counterTerrorism",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "counterTerrorismFinancing",
+      "variants": [
+        "size=24px",
+        "size=16pxx"
+      ]
+    },
+    {
+      "name": "couple",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "creditCard",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "crime",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "criminal",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "crossSell",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "culture",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "cyber",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "cyberTechErrorsOmissionsDigitech",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "darkMode",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "dashboard",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "dashboardBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "dataDown",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "dataStable",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "dataTable",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "dataTransfer",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "dataUp",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "death",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "debitCard",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "dental",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "digitalMarine",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "diningTable",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "directorsOfficersManagementLiability",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "diving",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "doctors",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "document",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "documentBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "documentEdit",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "documentOpen",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "documentOpenEnvelope",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "documentPdf",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "documentPdfSearch",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "dog",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "download",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "downloadBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "downloadComplete",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "dragIndicator",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "duplicate",
+      "variants": [
+        "size=24px, style=fill",
+        "size=16px, style=fill",
+        "size=24px, style=stroke",
+        "size=16px, style=stroke"
+      ]
+    },
+    {
+      "name": "dynamicFeed",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "eCommerce",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "earrings",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "earthquake",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "edit",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "editBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "editSection",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "education",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "electricityOutlet",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "elevator",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "ellipsesHr",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "ellipsesVt",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "email",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "emailBrand",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "emailSend",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "emailSent",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "emailUnread",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "employedLawyers",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "employerProvidedBenefits",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "employmentPracticesLiability",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "endorsement",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "endorsementCreate",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "endorsementView",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "energy",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "entertainment",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "environmental",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "equipmentBreakdown",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "error",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "errorsOmissions",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "excel",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "excessUmbrella",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "exclamation",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "expandDown",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "explosion",
+      "variants": [
+        "size=16px",
+        "size=Vector"
+      ]
+    },
+    {
+      "name": "faceIdAndroid",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "faceIdIos",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "facebook",
+      "variants": [
+        "color=false",
+        "color=true"
+      ]
+    },
+    {
+      "name": "facebookVector",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "family1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "family2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "family3",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "farmAnimals",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "farmEquipment",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "favorites",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "fax",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "faxBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "federal",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "fiduciary",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "filter",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "finance",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "financialLinesCyberErrorsOmissions",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "financialLinesForefrontPortfolio",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "findProspects",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "fingerprint",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "fintech",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "fire",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "flag",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "flatTire",
+      "variants": [
+        "size=16px",
+        "size=24"
+      ]
+    },
+    {
+      "name": "flip",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "folder",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "folderZip",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "folders",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "food",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "foreignPackageInternational",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "forkliftCrash",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "fraud",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "fridge",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "funeral",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "gasStation",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "gears",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "giftBox",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "glasses",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "globalAddMultiple",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "globalApplicationCreatePreFilled",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalBuildingLocationAdd",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalBuildingLocationRemove",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalClose",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "globalCreateNewDuplicate",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalDelete",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "globalEdit",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalGenerate",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalInsuredInfoAdd",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalInsuredInfoRemove",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalIssue",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalManageAdjustChange",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalNewCreate",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalPayPayments",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalReferToUnderwriter",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalRequest",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalRequestPricingAdjustments",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalSend",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalSubmit",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalUnderwriting",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "globalView",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "golf",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "googlePay",
+      "variants": [
+        "color=black, type=logo",
+        "color=white, type=logo",
+        "color=default, type=mark"
+      ]
+    },
+    {
+      "name": "groceries1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "groceris2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "hairDryer",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "hamburger",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "handBrake",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "handsHit",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "handsHold",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "healthcare",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "healthcareFinances",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "healthcareTech",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "heart",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "helmet",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "help",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "helpCenter",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "helpLive",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "history",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "historyBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "home",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "homeAssessmentInspection",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "homeBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "hospital",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "hospitality",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "hourglass",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "house",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "houseCollision",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "houseFire",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "houseFlood",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "houseSecure",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "houseWindLeft",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "houseWindRight",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "houseWindRoof",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "hurricane",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "idCards",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "idCardsAuto",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "idCardsTemporary",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "inbox",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "individual",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "injury",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "inlandMarine",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "insights",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "instagram",
+      "variants": [
+        "color=false",
+        "color=true"
+      ]
+    },
+    {
+      "name": "instagramVector",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "insurance",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "internet",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "invoice",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "iot",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "key",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "keys",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "kidnapRansom",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "landslide",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "language",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "laptop",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "lawFirms",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "leaf1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "leaf2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "leakingPipe",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "leakingWasher",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "liabilityGeneralLiability",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "lifeInsurance",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "lifeSciences",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "lightMode",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "lightbulb",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "link",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "linkedin",
+      "variants": [
+        "color=false",
+        "color=true"
+      ]
+    },
+    {
+      "name": "linkedinVector",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "lipstick",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "location",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "locationPin",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "lock",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "locker",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "logout",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "lotus",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "luggageDelay",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "luggageLock",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "luggageLoss",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "luggage–broken",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "manufacturing",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "map",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "marine",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "maritime",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "massage",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "mastercard",
+      "variants": [
+        "bg-color=white-bg",
+        "bg-color=black-bg"
+      ]
+    },
+    {
+      "name": "medicalAssistanceCat",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "medicalAssistanceDog",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "medicalMalpractice",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "medication",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "memoryStick",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "mentalHealth",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "mergersAcquisitions",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "microphone",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "mobile",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "mobileApp",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "mobileBroken",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "mobileCheck",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "mobileCyberSecurity",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "mobileGps",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "molecule",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "moleculeHydrogen",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "moneyDollar",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "moneyEuro",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "moneyPound",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "moneyYen",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "multiplePolicies",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "naturalDisasters",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "necklace",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "network",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "newReleases",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "newWindow",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "news",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "notary",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "notification",
+      "variants": [
+        "size=16px, style=stroke, notify=none",
+        "size=16px, style=stroke, notify=badge",
+        "size=16px, style=stroke, notify=counter",
+        "size=24px, style=stroke, notify=none",
+        "size=24px, style=stroke, notify=badge",
+        "size=24px, style=stroke, notify=counter",
+        "size=16px, style=fill, notify=none",
+        "size=16px, style=fill, notify=badge",
+        "size=16px, style=fill, notify=counter",
+        "size=24px, style=fill, notify=none",
+        "size=24px, style=fill, notify=badge",
+        "size=24px, style=fill, notify=counter"
+      ]
+    },
+    {
+      "name": "notifications",
+      "variants": [
+        "size=24px, notify=none",
+        "size=24px, notify=badge",
+        "size=24px, notify=counter",
+        "size=16px, notify=none",
+        "size=16px, notify=badge",
+        "size=16px, notify=counter"
+      ]
+    },
+    {
+      "name": "oceanMarine",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "oilCan1",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "oilCan2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "oldVersions",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "openLock",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "orgChart",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "otherCoverageMiscLiability",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "outsourcing",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "oven",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "package",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "paintball",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "paperless",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "partnership",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "pause",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "paypal",
+      "variants": [
+        "color=white, type=mark",
+        "color=default, type=logo"
+      ]
+    },
+    {
+      "name": "peopleElevator",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "pep",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "personalAccidentHealth",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "personalLines",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "pet",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "phishing",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "phone",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "phone24Hours",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "phoneBrand",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "phoneCall",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "phoneMessage",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "phoneSpeaker",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "piggyBank",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "pin",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "planeCancellation",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "planeDelay",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "planeMultitrip",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "play",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "policy",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "policyAdd",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "policyCancel",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "policyDetails",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "policyDownload",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "policyEdit",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "policyRenew",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "policySearch",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "policyView",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "powerplant",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "priceTag",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "print",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "printer",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "productRecall",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "professionalLiabilityProerm",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "professionalServices",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "promoCode",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "proofOfInsurance",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "property",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "propertyCasualty",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "proposalCreate",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "proposalSend",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "publish",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "question",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quickAndSimpleApplication",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quote",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "quoteComplete",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quoteManage",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quoteNew",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quoteRegenerate",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quoteRename",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quoteReopen",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "quote–edit",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quote–multiple",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quote–search",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "quote–view",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "rating1",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "rating2",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "realEstate",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "recycle",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "redo",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "referral",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "refresh",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "refreshBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "refund",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "remove",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "removeCircle",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "renewableEnergy",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "resources",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "restroomMobilityImpairedPerson1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "restroomMobilityImpairedPerson2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "restroomPerson1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "restroomPerson2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "review",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "road",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "rocket",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "rotateLeft",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "rotateRight",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "rubberStamp",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "running",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "save",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "saveAs",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "saveBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "scamImpersonation",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "scamPhone",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "scamSms",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "school",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "scooter",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "sealedEnvelope1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "sealedEnvelope2",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "search",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "searchBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "securityCamera",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "send",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "seniorCitizen",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "settings",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "settingsAccessibility",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "settingsAccount",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "settingsBrand",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "settingsDisplay",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "settingsInbox",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "settingsTune",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "settingsWifiNetwork",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "share",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "shareBrand",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "shareCards",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "ship",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "shoppingBag",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "shoppingCart",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "sign",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "signature1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "signature2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "sink",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "smallBusiness",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "smartTv",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "snail",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "snorkeling",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "soccer",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "socialMedia",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "sofa",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "solutionCenter",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "sort",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "sportsVest",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "star",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "starFill",
+      "variants": [
+        "size=16px, style=fill",
+        "size=24px, style=fill",
+        "size=16px, style=stroke",
+        "size=24px, style=stroke"
+      ]
+    },
+    {
+      "name": "steel",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "steelBlastFurnace",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "steelElectricArcFurnace",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "stones",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "stroller",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "successCheck",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "supplementalInsurance",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "supportingMaterialsDocuments",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "surety",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "sustainableAviationFuel",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "syringe",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "tanksafe",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "target",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "tasks",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "technology",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "telemedicine",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "temperatureReader",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "temperatureRise",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "theft",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "thumbsDown",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "thumbsUp",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=16px, style=fill",
+        "size=24px, style=fill"
+      ]
+    },
+    {
+      "name": "tooltip",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "toothbrush",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "tornado",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "touchIdAndroid",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "touchIdIos",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "townhall",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "toxicDrum",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "train",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "transactions",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "transfer",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "transportation",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "trash",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "travel",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "trophy",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "truck1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "truck2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "truck3",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "trust",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "tv",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "twitter",
+      "variants": [
+        "color=false",
+        "color=true"
+      ]
+    },
+    {
+      "name": "twitterVector",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "undo",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "unlock",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "upload",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "uploadBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "user",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "vacuum",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "valuables",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "vase",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "vaseDamaged",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "video",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "videoDisplay",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoExitFullScreen",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "videoFastForward",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoFullScreen",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "videoMute",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoPause",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoPlay",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoReplay",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "videoRewind",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoSkipNext",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoSkipPrevious",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoSpeed",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoSubtitles",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoSubtitlesOff",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoVolumeDown",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "videoVolumeUp",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "viewGrid",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "viewList",
+      "variants": [
+        "size=24px, style=stroke",
+        "size=16px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "visibility",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "visibilityOff",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "volcano",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "wallet",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "warning",
+      "variants": [
+        "size=16px, style=stroke",
+        "size=24px, style=stroke",
+        "size=24px, style=fill",
+        "size=16px, style=fill"
+      ]
+    },
+    {
+      "name": "warningBrand",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "watch1",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "watch2",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "water",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "wellness",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "whatsapp",
+      "variants": [
+        "color=true",
+        "color=false"
+      ]
+    },
+    {
+      "name": "whatsappVector",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "wheelchair",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "wifi",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "wifiNetwork",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "wildFire",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "windshield",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "wineries",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "workersCompensation",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "workplaceBenefits",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "wrench",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "x",
+      "variants": [
+        "color=true",
+        "color=false"
+      ]
+    },
+    {
+      "name": "xVector",
+      "variants": [
+        "size=24px",
+        "size=16px"
+      ]
+    },
+    {
+      "name": "youtube",
+      "variants": [
+        "color=false",
+        "color=true"
+      ]
+    },
+    {
+      "name": "youtubeVector",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "zoomIn",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    },
+    {
+      "name": "zoomOut",
+      "variants": [
+        "size=16px",
+        "size=24px"
+      ]
+    }
+  ]
+}

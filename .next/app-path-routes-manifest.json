@@ -1,0 +1,5 @@
+{
+  "/api/[transport]/route": "/api/[transport]",
+  "/_not-found/page": "/_not-found",
+  "/page": "/"
+}

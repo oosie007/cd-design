@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-26",
+  "colors": {
+    "neutral": {
+      "black": { "value": "#191919", "cssToken": "--color-neutral-black", "usage": "Primary text, headings" },
+      "700": { "value": "#4D4D4D", "cssToken": "--color-neutral-700", "usage": "Dark backgrounds, secondary text" },
+      "500": { "value": "#808080", "cssToken": "--color-neutral-500", "usage": "Placeholders, muted text" },
+      "400": { "value": "#999999", "cssToken": "--color-neutral-400", "usage": "Borders, dividers" },
+      "300": { "value": "#B3B3B3", "cssToken": "--color-neutral-300", "usage": "Light borders" },
+      "200": { "value": "#F2F2F2", "cssToken": "--color-neutral-200", "usage": "Subtle backgrounds (sidebars, cards)" },
+      "white": { "value": "#FFFFFF", "cssToken": "--color-neutral-white", "usage": "Backgrounds, inverse text" }
+    },
+    "primary": {
+      "blue": { "value": "#000ECC", "cssToken": "--color-primary-blue", "usage": "Primary actions, links, focus states" },
+      "purple": { "value": "#6526D9", "cssToken": "--color-primary-purple", "usage": "Brand accent" },
+      "teal": { "value": "#4BCCE5", "cssToken": "--color-primary-teal", "usage": "Brand accent" },
+      "green": { "value": "#7FCD32", "cssToken": "--color-primary-green", "usage": "Brand accent" },
+      "yellow": { "value": "#FFA300", "cssToken": "--color-primary-yellow", "usage": "Brand accent" },
+      "pink": { "value": "#FC0386", "cssToken": "--color-primary-pink", "usage": "Brand accent" }
+    },
+    "utility": {
+      "success-light": { "value": "#C6F3C6", "cssToken": "--color-utility-success-light" },
+      "success-dark": { "value": "#0E580E", "cssToken": "--color-utility-success-dark" },
+      "error-light": { "value": "#F3AC99", "cssToken": "--color-utility-error-light" },
+      "error-dark": { "value": "#AA010E", "cssToken": "--color-utility-error-dark" },
+      "caution-light": { "value": "#FECC9E", "cssToken": "--color-utility-caution-light" },
+      "caution-dark": { "value": "#F56600", "cssToken": "--color-utility-caution-dark" },
+      "focus": { "value": "#386CF7", "cssToken": "--color-utility-focus-focusstate" }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "headline": { "name": "Chubb Publico App", "cssToken": "--font-family-headline", "fallback": "Georgia, serif", "usage": "Marketing headlines, hero sections" },
+      "title": { "name": "Lato", "cssToken": "--font-family-title", "fallback": "Arial, sans-serif", "usage": "Page titles, section headings" },
+      "body": { "name": "Lato", "cssToken": "--font-family-body", "fallback": "Arial, sans-serif", "usage": "Body text, labels, buttons, navigation" }
+    },
+    "typeScale": {
+      "headline-1": { "size": "62px", "lineHeight": "72px", "token": "--font-size-headline-1", "weight": 700 },
+      "headline-2": { "size": "50px", "lineHeight": "60px", "token": "--font-size-headline-2", "weight": 700 },
+      "headline-3": { "size": "40px", "lineHeight": "46px", "token": "--font-size-headline-3", "weight": 700 },
+      "headline-4": { "size": "34px", "lineHeight": "40px", "token": "--font-size-headline-4", "weight": 700 },
+      "headline-5": { "size": "26px", "lineHeight": "30px", "token": "--font-size-headline-5", "weight": 700 },
+      "title-1": { "size": "40px", "lineHeight": "46px", "token": "--font-size-title-1", "weight": 700 },
+      "title-2": { "size": "34px", "lineHeight": "40px", "token": "--font-size-title-2", "weight": 700 },
+      "title-3": { "size": "26px", "lineHeight": "30px", "token": "--font-size-title-3", "weight": 700 },
+      "title-4": { "size": "22px", "lineHeight": "26px", "token": "--font-size-title-4", "weight": 700 },
+      "title-5": { "size": "18px", "lineHeight": "22px", "token": "--font-size-title-5", "weight": 700 },
+      "body-regular": { "size": "16px", "lineHeight": "22px", "token": "--font-size-body-regular", "weight": 400 },
+      "body-small": { "size": "13px", "lineHeight": "18px", "token": "--font-size-body-small", "weight": 400 }
+    },
+    "fontWeights": {
+      "lighter": { "value": 300, "cssToken": "--font-weight-lighter" },
+      "default": { "value": 400, "cssToken": "--font-weight-default" },
+      "bolder": { "value": 700, "cssToken": "--font-weight-bolder" }
+    }
+  },
+  "spacing": {
+    "0": { "value": "0px", "cssToken": "--spacing-0" },
+    "1px": { "value": "1px", "cssToken": "--spacing-1px" },
+    "xs1": { "value": "2px", "cssToken": "--spacing-xs1", "usage": "Micro spacing" },
+    "xs2": { "value": "4px", "cssToken": "--spacing-xs2", "usage": "Tight spacing, icon gaps" },
+    "sm1": { "value": "8px", "cssToken": "--spacing-sm1", "usage": "Small gaps between related items" },
+    "sm2": { "value": "12px", "cssToken": "--spacing-sm2", "usage": "Component internal padding" },
+    "md1": { "value": "16px", "cssToken": "--spacing-md1", "usage": "Form field spacing, card padding" },
+    "md2": { "value": "20px", "cssToken": "--spacing-md2", "usage": "Section internal spacing" },
+    "lg1": { "value": "24px", "cssToken": "--spacing-lg1", "usage": "Large gaps, form field vertical spacing" },
+    "lg2": { "value": "32px", "cssToken": "--spacing-lg2", "usage": "Section spacing" },
+    "xl1": { "value": "40px", "cssToken": "--spacing-xl1", "usage": "Major section breaks" },
+    "xl2": { "value": "48px", "cssToken": "--spacing-xl2", "usage": "Page-level padding on desktop" },
+    "xxl1": { "value": "64px", "cssToken": "--spacing-xxl1", "usage": "Hero sections, major visual breaks" },
+    "xxl2": { "value": "96px", "cssToken": "--spacing-xxl2", "usage": "Large page sections" },
+    "xxl3": { "value": "128px", "cssToken": "--spacing-xxl3", "usage": "Maximum spacing" }
+  },
+  "accessibilityRules": [
+    "Never use pure black (#000000) — use #191919 (--color-neutral-black)",
+    "Text on colored backgrounds must meet WCAG AA: 4.5:1 for body, 3:1 for large text (18px+)",
+    "Use semantic colors for status: success (green), warning (amber), error (red)",
+    "All interactive elements need visible focus states using --color-utility-focus-focusstate (#386CF7)"
+  ]
+}
