@@ -12,6 +12,14 @@ export async function loadJSON(filename: string): Promise<any> {
   }
 }
 
+export async function loadText(filename: string): Promise<string> {
+  try {
+    return await fs.readFile(path.join(DATA_DIR, filename), 'utf-8');
+  } catch {
+    return '';
+  }
+}
+
 export function generateStylesheet(tokens: any): string {
   const lines: string[] = [];
 

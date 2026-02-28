@@ -1,0 +1,54 @@
+{
+  "description": "Reference patterns for composing layout and components. Use these as guidelines—pick the pattern that fits your app type, then adapt layout and content.",
+  "patterns": [
+    {
+      "id": "claims-portal",
+      "name": "Claims portal",
+      "description": "Dashboard with metrics, data table, filters, activity feed, assignee workload",
+      "header": "header-light",
+      "layout": ["app-sidebar", "app-main-with-sidebar"],
+      "components": ["page-header", "metric-grid", "content-grid", "filters-bar", "data-table", "panel", "activity-item", "mini-stat", "assignee-row", "status", "type-badge", "row-actions"],
+      "structure": "header-light + sidebar-fixed + main-with-sidebar | page-header | metric-grid (4 cols) | content-grid (table + panel) | two-col-grid (assignees + tasks)"
+    },
+    {
+      "id": "underwriter-workbench",
+      "name": "Underwriter workbench",
+      "description": "Queue + detail layout, compact header, list selection",
+      "header": "header-dark",
+      "layout": ["app-sidebar", "list-panel", "detail-panel"],
+      "components": ["list-card", "entity-header", "search-bar", "filter-chip", "status-badge", "steps", "info-grid", "btn-primary"],
+      "structure": "header-dark + sidebar + content (list-panel + detail-panel) | list-panel: search-bar, filter-row, list-cards | detail-panel: entity-header, steps, cards-grid"
+    },
+    {
+      "id": "sales-portal",
+      "name": "Sales portal",
+      "description": "Pipeline view, deal cards, metrics, light header with search",
+      "header": "header-light",
+      "layout": ["app-sidebar", "app-main-with-sidebar"],
+      "components": ["page-header", "metric-grid", "content-grid", "filter-tag", "list-card", "status", "entity-header", "activity-item"],
+      "structure": "header-light + sidebar + main | page-header | metric-grid | pipeline/kanban or content-grid with deal cards"
+    },
+    {
+      "id": "internal-admin",
+      "name": "Internal admin tool",
+      "description": "Data-heavy, tables, bulk actions, compact header",
+      "header": "header-dark",
+      "layout": ["app-sidebar", "app-main"],
+      "components": ["tabs", "page-header", "data-table", "filters-bar", "filter-select", "row-actions", "btn-outline", "table-footer"],
+      "structure": "header-dark + sidebar + main | tabs | page-header + actions | data-table with filters-bar, row-actions, pagination"
+    }
+  ],
+  "headerVariants": {
+    "header-dark": "Primary color bar, compact (52px). Use for focused internal tools.",
+    "header-light": "White bar with accent border, search, avatar (60px). Use for portals with global search."
+  },
+  "genericComponents": {
+    "layout": ["app-layout", "app-sidebar", "app-main", "app-main-with-sidebar", "content", "content-grid", "two-col-grid"],
+    "header": ["header-dark", "header-light", "header-logo", "header-title", "header-search", "header-actions", "avatar"],
+    "cards": ["card", "card-header", "card-body", "list-card", "metric-card", "entity-header"],
+    "data": ["data-table", "ref-id", "entity-name", "entity-meta-line", "status", "status-badge", "type-badge", "priority", "amount", "row-actions"],
+    "filters": ["filters-bar", "filter-select", "filter-tag", "filter-chip", "search-bar"],
+    "panels": ["panel", "panel-section", "list-panel", "detail-panel", "activity-item", "mini-stat", "assignee-row"],
+    "buttons": ["btn", "btn-primary", "btn-secondary", "btn-outline", "btn-success", "btn-danger", "action-btn-primary", "action-btn-ghost"]
+  }
+}
