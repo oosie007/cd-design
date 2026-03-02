@@ -56,7 +56,7 @@ npm install
 npm run dev
 ```
 
-MCP endpoint: `http://localhost:3000/api/mcp`
+MCP endpoint: `http://localhost:3000/api/uitools`
 
 ## Deploy to Vercel
 
@@ -70,7 +70,7 @@ Add to Cursor `mcp.json`:
 {
   "mcpServers": {
     "chubb-brand-kit": {
-      "url": "https://your-deployment.vercel.app/api/mcp"
+      "url": "https://your-deployment.vercel.app/api/uitools"
     }
   }
 }

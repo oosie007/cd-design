@@ -319,7 +319,12 @@ Same generic classes as Next.js: header-dark | header-light, app-sidebar, metric
 
 LAYOUTS: All designs and layouts from this server are mobile-first and responsive by default. Use the CSS classes as provided—they include breakpoints. Ensure viewport meta tag: <meta name="viewport" content="width=device-width, initial-scale=1">. On mobile, sidebar is hidden; add a .sidebar-toggle button that toggles .sidebar-open on the sidebar. For tables, wrap in a div with class table-scroll for horizontal scroll on small screens.`,
   },
-  { basePath: '/api', maxDuration: 60 }
+  {
+    streamableHttpEndpoint: '/api/uitools',
+    sseEndpoint: '/api/uitools/sse',
+    sseMessageEndpoint: '/api/uitools/message',
+    maxDuration: 60,
+  }
 );
 
 export { handler as GET, handler as POST, handler as DELETE };
