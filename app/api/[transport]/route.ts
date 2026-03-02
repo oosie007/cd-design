@@ -121,7 +121,7 @@ const handler = createMcpHandler(
 
     server.tool(
       'get_layout_stylesheet',
-      'Get generic semantic CSS for any app (Next.js, Angular, etc.): header-dark | header-light, sidebar, main, cards, tables, metrics, filters, status badges. Use with get_brand_stylesheet tokens. Import AFTER tokens. Framework-agnostic.',
+      'Get generic semantic CSS for any app (Next.js, Angular, etc.): header-dark | header-light, sidebar, main, cards, tables, metrics, filters, status badges. Mobile-first and responsive by default. Use with get_brand_stylesheet tokens. Import AFTER tokens. Framework-agnostic.',
       {},
       async () => {
         const css = await loadText('layout.css');
@@ -313,7 +313,12 @@ Same generic classes as Next.js: header-dark | header-light, app-sidebar, metric
       }
     );
   },
-  { serverInfo: { name: 'chubb-brand-kit', version: '1.0.0' } },
+  {
+    serverInfo: { name: 'chubb-brand-kit', version: '1.0.0' },
+    instructions: `ICONS: Before adding any new or custom icon, always call get_icon first. Use Chubb standard icons when a match exists; only use other icon sets when get_icon returns no suitable match. Use <ds-icon name="iconName"> with icons from get_icon.
+
+LAYOUTS: All designs and layouts from this server are mobile-first and responsive by default. Use the CSS classes as provided—they include breakpoints. Ensure viewport meta tag: <meta name="viewport" content="width=device-width, initial-scale=1">. On mobile, sidebar is hidden; add a .sidebar-toggle button that toggles .sidebar-open on the sidebar. For tables, wrap in a div with class table-scroll for horizontal scroll on small screens.`,
+  },
   { basePath: '/api', maxDuration: 60 }
 );
 
