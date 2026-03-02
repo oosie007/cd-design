@@ -315,9 +315,13 @@ Same generic classes as Next.js: header-dark | header-light, app-sidebar, metric
   },
   {
     serverInfo: { name: 'chubb-brand-kit', version: '1.0.0' },
-    instructions: `ICONS: Before adding any new or custom icon, always call get_icon first. Use Chubb standard icons when a match exists; only use other icon sets when get_icon returns no suitable match. Use <ds-icon name="iconName"> with icons from get_icon.
+    instructions: `Chubb design system server. When building or styling Chubb-branded UI, you MUST call these tools FIRST before implementing—never guess colors, fonts, logos, or layout.
 
-LAYOUTS: All designs and layouts from this server are mobile-first and responsive by default. Use the CSS classes as provided—they include breakpoints. Ensure viewport meta tag: <meta name="viewport" content="width=device-width, initial-scale=1">. On mobile, sidebar is hidden; add a .sidebar-toggle button that toggles .sidebar-open on the sidebar. For tables, wrap in a div with class table-scroll for horizontal scroll on small screens.`,
+Workflow: 1) For Next.js: get_nextjs_setup. For other frameworks: get_brand_stylesheet. Use the returned CSS as your base. 2) get_logo (variant "full") for header/branding—never substitute a generic icon. 3) get_layout_stylesheet—use its semantic classes (header-dark, card, card-header, card-body, btn, btn-primary, btn-outline, chubb-input, data-table, table-scroll). 4) get_icon before adding any icon—use Chubb icons when a match exists.
+
+ICONS: Before adding any new or custom icon, always call get_icon first. Use Chubb standard icons when a match exists; only use other icon sets when get_icon returns no suitable match. Use <ds-icon name="iconName"> with icons from get_icon.
+
+LAYOUTS: All designs are mobile-first and responsive. Use the CSS classes as provided. Ensure viewport meta tag. On mobile, sidebar is hidden; add .sidebar-toggle that toggles .sidebar-open on the sidebar. For tables, wrap in a div with class table-scroll.`,
   },
   {
     streamableHttpEndpoint: '/api/uitools',
