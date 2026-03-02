@@ -11,19 +11,6 @@ index e183dd4..ae0cb48 100644
          this._clientCapabilities = request.params.capabilities;
          this._clientVersion = request.params.clientInfo;
          const protocolVersion = types_js_1.SUPPORTED_PROTOCOL_VERSIONS.includes(requestedVersion) ? requestedVersion : types_js_1.LATEST_PROTOCOL_VERSION;
-diff --git a/node_modules/@modelcontextprotocol/sdk/dist/cjs/server/webStandardStreamableHttp.js b/node_modules/@modelcontextprotocol/sdk/dist/cjs/server/webStandardStreamableHttp.js
-index 1bc5843..49f2b9d 100644
---- a/node_modules/@modelcontextprotocol/sdk/dist/cjs/server/webStandardStreamableHttp.js
-+++ b/node_modules/@modelcontextprotocol/sdk/dist/cjs/server/webStandardStreamableHttp.js
-@@ -451,7 +451,7 @@ class WebStandardStreamableHTTPServerTransport {
-             // For other requests, get from header (already validated).
-             const initRequest = messages.find(m => (0, types_js_1.isInitializeRequest)(m));
-             const clientProtocolVersion = initRequest
--                ? initRequest.params.protocolVersion
-+                ? (initRequest.params.protocolVersion ?? initRequest.params.version)
-                 : (req.headers.get('mcp-protocol-version') ?? types_js_1.DEFAULT_NEGOTIATED_PROTOCOL_VERSION);
-             if (this._enableJsonResponse) {
-                 // For JSON response mode, return a Promise that resolves when all responses are ready
 diff --git a/node_modules/@modelcontextprotocol/sdk/dist/cjs/types.js b/node_modules/@modelcontextprotocol/sdk/dist/cjs/types.js
 index 1f4553e..a4ec064 100644
 --- a/node_modules/@modelcontextprotocol/sdk/dist/cjs/types.js
@@ -50,19 +37,6 @@ index 51d060e..4304bdd 100644
          this._clientCapabilities = request.params.capabilities;
          this._clientVersion = request.params.clientInfo;
          const protocolVersion = SUPPORTED_PROTOCOL_VERSIONS.includes(requestedVersion) ? requestedVersion : LATEST_PROTOCOL_VERSION;
-diff --git a/node_modules/@modelcontextprotocol/sdk/dist/esm/server/webStandardStreamableHttp.js b/node_modules/@modelcontextprotocol/sdk/dist/esm/server/webStandardStreamableHttp.js
-index f87830f..40653ff 100644
---- a/node_modules/@modelcontextprotocol/sdk/dist/esm/server/webStandardStreamableHttp.js
-+++ b/node_modules/@modelcontextprotocol/sdk/dist/esm/server/webStandardStreamableHttp.js
-@@ -448,7 +448,7 @@ export class WebStandardStreamableHTTPServerTransport {
-             // For other requests, get from header (already validated).
-             const initRequest = messages.find(m => isInitializeRequest(m));
-             const clientProtocolVersion = initRequest
--                ? initRequest.params.protocolVersion
-+                ? (initRequest.params.protocolVersion ?? initRequest.params.version)
-                 : (req.headers.get('mcp-protocol-version') ?? DEFAULT_NEGOTIATED_PROTOCOL_VERSION);
-             if (this._enableJsonResponse) {
-                 // For JSON response mode, return a Promise that resolves when all responses are ready
 diff --git a/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js b/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
 index 8edb88e..a5063de 100644
 --- a/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js

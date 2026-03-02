@@ -17,6 +17,9 @@
     "react-dom": "^19.0.0",
     "zod": "^3.23.0"
   },
+  "overrides": {
+    "@modelcontextprotocol/sdk": "1.25.2"
+  },
   "devDependencies": {
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
