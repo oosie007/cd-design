@@ -24,6 +24,19 @@ index 1bc5843..49f2b9d 100644
                  : (req.headers.get('mcp-protocol-version') ?? types_js_1.DEFAULT_NEGOTIATED_PROTOCOL_VERSION);
              if (this._enableJsonResponse) {
                  // For JSON response mode, return a Promise that resolves when all responses are ready
+diff --git a/node_modules/@modelcontextprotocol/sdk/dist/cjs/types.js b/node_modules/@modelcontextprotocol/sdk/dist/cjs/types.js
+index 1f4553e..a4ec064 100644
+--- a/node_modules/@modelcontextprotocol/sdk/dist/cjs/types.js
++++ b/node_modules/@modelcontextprotocol/sdk/dist/cjs/types.js
+@@ -494,7 +494,7 @@ exports.InitializeRequestParamsSchema = BaseRequestParamsSchema.extend({
+      */
+     protocolVersion: z.string(),
+     capabilities: exports.ClientCapabilitiesSchema,
+-    clientInfo: exports.ImplementationSchema
++    clientInfo: exports.ImplementationSchema.optional()
+ });
+ /**
+  * This request is sent from the client to the server when it first connects, asking it to begin initialization.
 diff --git a/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js b/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
 index 51d060e..4304bdd 100644
 --- a/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
@@ -50,3 +63,16 @@ index f87830f..40653ff 100644
                  : (req.headers.get('mcp-protocol-version') ?? DEFAULT_NEGOTIATED_PROTOCOL_VERSION);
              if (this._enableJsonResponse) {
                  // For JSON response mode, return a Promise that resolves when all responses are ready
+diff --git a/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js b/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
+index 8edb88e..a5063de 100644
+--- a/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
++++ b/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
+@@ -458,7 +458,7 @@ export const InitializeRequestParamsSchema = BaseRequestParamsSchema.extend({
+      */
+     protocolVersion: z.string(),
+     capabilities: ClientCapabilitiesSchema,
+-    clientInfo: ImplementationSchema
++    clientInfo: ImplementationSchema.optional()
+ });
+ /**
+  * This request is sent from the client to the server when it first connects, asking it to begin initialization.
